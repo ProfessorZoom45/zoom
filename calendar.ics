@@ -1,0 +1,1781 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OpenAI//Mortgage Ready Fiscal Calendar v5//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Mortgage Ready Fiscal Calendar v5
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:mortgage-ready-v5-0@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260514T073000
+DTEND;TZID=America/New_York:20260514T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-1@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260514T083000
+DTEND;TZID=America/New_York:20260514T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-2@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260514T200000
+DTEND;TZID=America/New_York:20260514T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $525.00
+DESCRIPTION:Projected end-of-day balance: $525.00\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-3@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260515T090000
+DTEND;TZID=America/New_York:20260515T093000
+SUMMARY:Buffalo Auto Acceptance Payment — -$260.00
+DESCRIPTION:Amount: -$260.00\nCategory: Auto Loan\nPayment Amount: $260.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBi-weekly Friday payment. Includes $255 payment + $5 convenience fee. Top-priority payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Buffalo Auto Acceptance Payment — -$260.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-4@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260515T100000
+DTEND;TZID=America/New_York:20260515T103000
+SUMMARY:National Grid Catch-Up / Current Bill — -$145.50
+DESCRIPTION:Amount: -$145.50\nCategory: Utility\nPayment Amount: $145.50\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nNational Grid bill shown as $145.50. Pay from first available paycheck if not already paid.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:National Grid Catch-Up / Current Bill — -$145.50
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-5@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260515T110000
+DTEND;TZID=America/New_York:20260515T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-6@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260515T200000
+DTEND;TZID=America/New_York:20260515T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $69.50
+DESCRIPTION:Projected end-of-day balance: $69.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Buffalo Auto Acceptance Payment: -$260.00 (Auto Loan)\n- National Grid Catch-Up / Current Bill: -$145.50 (Utility)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-7@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260516T200000
+DTEND;TZID=America/New_York:20260516T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $69.50
+DESCRIPTION:Projected end-of-day balance: $69.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-8@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260517T120000
+DTEND;TZID=America/New_York:20260517T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-9@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260517T200000
+DTEND;TZID=America/New_York:20260517T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $44.50
+DESCRIPTION:Projected end-of-day balance: $44.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-10@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260518T180000
+DTEND;TZID=America/New_York:20260518T183000
+SUMMARY:LVNV Collection Strategy Check — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Repair\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nReview validation/dispute status and settlement readiness. Do not make new payment promises unless cash is ready.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:LVNV Collection Strategy Check — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-11@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260518T200000
+DTEND;TZID=America/New_York:20260518T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $44.50
+DESCRIPTION:Projected end-of-day balance: $44.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- LVNV Collection Strategy Check: +$0.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-12@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260519T200000
+DTEND;TZID=America/New_York:20260519T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $44.50
+DESCRIPTION:Projected end-of-day balance: $44.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-13@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260520T190000
+DTEND;TZID=America/New_York:20260520T193000
+SUMMARY:TIGHT WEEK — Consider Overtime $105.50
+DESCRIPTION:Week: 05/14/2026 to 05/20/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $730.50\nProjected leftover before food/gas/flex: $44.50\nRecommended overtime/extra income to keep $150 cushion: $105.50\nStatus: YELLOW\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:TIGHT WEEK — Consider Overtime $105.50
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-14@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260520T200000
+DTEND;TZID=America/New_York:20260520T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $44.50
+DESCRIPTION:Projected end-of-day balance: $44.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-15@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260521T073000
+DTEND;TZID=America/New_York:20260521T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-16@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260521T083000
+DTEND;TZID=America/New_York:20260521T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-17@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260521T200000
+DTEND;TZID=America/New_York:20260521T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $569.50
+DESCRIPTION:Projected end-of-day balance: $569.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-18@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260522T110000
+DTEND;TZID=America/New_York:20260522T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$150.00
+DESCRIPTION:Amount: -$150.00\nCategory: Credit Repair\nPayment Amount: $150.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base + Extra Attack Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$150.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-19@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260522T200000
+DTEND;TZID=America/New_York:20260522T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $419.50
+DESCRIPTION:Projected end-of-day balance: $419.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Imagine Credit Card Utilization Attack: -$150.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-20@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260523T200000
+DTEND;TZID=America/New_York:20260523T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $419.50
+DESCRIPTION:Projected end-of-day balance: $419.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-21@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260524T120000
+DTEND;TZID=America/New_York:20260524T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-22@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260524T200000
+DTEND;TZID=America/New_York:20260524T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $394.50
+DESCRIPTION:Projected end-of-day balance: $394.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-23@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260525T200000
+DTEND;TZID=America/New_York:20260525T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $394.50
+DESCRIPTION:Projected end-of-day balance: $394.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-24@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260526T200000
+DTEND;TZID=America/New_York:20260526T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $394.50
+DESCRIPTION:Projected end-of-day balance: $394.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-25@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260527T190000
+DTEND;TZID=America/New_York:20260527T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+DESCRIPTION:Week: 05/21/2026 to 05/27/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $425.00\nProjected leftover before food/gas/flex: $350.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-26@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260527T200000
+DTEND;TZID=America/New_York:20260527T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $394.50
+DESCRIPTION:Projected end-of-day balance: $394.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-27@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260528T073000
+DTEND;TZID=America/New_York:20260528T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-28@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260528T200000
+DTEND;TZID=America/New_York:20260528T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,169.50
+DESCRIPTION:Projected end-of-day balance: $1\,169.50\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-29@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260529T090000
+DTEND;TZID=America/New_York:20260529T093000
+SUMMARY:Buffalo Auto Acceptance Payment — -$260.00
+DESCRIPTION:Amount: -$260.00\nCategory: Auto Loan\nPayment Amount: $260.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBi-weekly Friday payment. Includes $255 payment + $5 convenience fee. Top-priority payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Buffalo Auto Acceptance Payment — -$260.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-30@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260529T100000
+DTEND;TZID=America/New_York:20260529T103000
+SUMMARY:National Fuel Gas Bill — -$49.21
+DESCRIPTION:Amount: -$49.21\nCategory: Utility\nPayment Amount: $49.21\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBill due 5/31/2026. Paying 5/29 gives processing time.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:National Fuel Gas Bill — -$49.21
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-31@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260529T110000
+DTEND;TZID=America/New_York:20260529T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-32@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260529T200000
+DTEND;TZID=America/New_York:20260529T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $810.29
+DESCRIPTION:Projected end-of-day balance: $810.29\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Buffalo Auto Acceptance Payment: -$260.00 (Auto Loan)\n- National Fuel Gas Bill: -$49.21 (Utility)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-33@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260530T200000
+DTEND;TZID=America/New_York:20260530T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $810.29
+DESCRIPTION:Projected end-of-day balance: $810.29\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-34@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260531T120000
+DTEND;TZID=America/New_York:20260531T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-35@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260531T200000
+DTEND;TZID=America/New_York:20260531T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $785.29
+DESCRIPTION:Projected end-of-day balance: $785.29\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-36@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260601T180000
+DTEND;TZID=America/New_York:20260601T183000
+SUMMARY:LVNV Collection Strategy Check — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Repair\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nReview validation/dispute status and settlement readiness. Do not make new payment promises unless cash is ready.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:LVNV Collection Strategy Check — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-37@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260601T200000
+DTEND;TZID=America/New_York:20260601T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $785.29
+DESCRIPTION:Projected end-of-day balance: $785.29\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- LVNV Collection Strategy Check: +$0.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-38@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260602T200000
+DTEND;TZID=America/New_York:20260602T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $785.29
+DESCRIPTION:Projected end-of-day balance: $785.29\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-39@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260603T190000
+DTEND;TZID=America/New_York:20260603T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $390.79
+DESCRIPTION:Week: 05/28/2026 to 06/03/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $384.21\nProjected leftover before food/gas/flex: $390.79\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $390.79
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-40@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260603T200000
+DTEND;TZID=America/New_York:20260603T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $785.29
+DESCRIPTION:Projected end-of-day balance: $785.29\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-41@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260604T073000
+DTEND;TZID=America/New_York:20260604T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-42@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260604T083000
+DTEND;TZID=America/New_York:20260604T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-43@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260604T200000
+DTEND;TZID=America/New_York:20260604T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,310.29
+DESCRIPTION:Projected end-of-day balance: $1\,310.29\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-44@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260605T100000
+DTEND;TZID=America/New_York:20260605T103000
+SUMMARY:USAA Auto Insurance Payment — -$311.62
+DESCRIPTION:Amount: -$311.62\nCategory: Insurance\nPayment Amount: $311.62\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nUSAA is included. Auto insurance payment/autopay planned around June 6\; scheduled June 5 to avoid a missed payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:USAA Auto Insurance Payment — -$311.62
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-45@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260605T110000
+DTEND;TZID=America/New_York:20260605T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-46@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260605T200000
+DTEND;TZID=America/New_York:20260605T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $948.67
+DESCRIPTION:Projected end-of-day balance: $948.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- USAA Auto Insurance Payment: -$311.62 (Insurance)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-47@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260606T200000
+DTEND;TZID=America/New_York:20260606T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $948.67
+DESCRIPTION:Projected end-of-day balance: $948.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-48@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260607T120000
+DTEND;TZID=America/New_York:20260607T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-49@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260607T200000
+DTEND;TZID=America/New_York:20260607T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $923.67
+DESCRIPTION:Projected end-of-day balance: $923.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-50@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260608T200000
+DTEND;TZID=America/New_York:20260608T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $923.67
+DESCRIPTION:Projected end-of-day balance: $923.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-51@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260609T200000
+DTEND;TZID=America/New_York:20260609T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $923.67
+DESCRIPTION:Projected end-of-day balance: $923.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-52@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260610T190000
+DTEND;TZID=America/New_York:20260610T193000
+SUMMARY:TIGHT WEEK — Consider Overtime $11.62
+DESCRIPTION:Week: 06/04/2026 to 06/10/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $636.62\nProjected leftover before food/gas/flex: $138.38\nRecommended overtime/extra income to keep $150 cushion: $11.62\nStatus: YELLOW\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:TIGHT WEEK — Consider Overtime $11.62
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-53@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260610T200000
+DTEND;TZID=America/New_York:20260610T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $923.67
+DESCRIPTION:Projected end-of-day balance: $923.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-54@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260611T073000
+DTEND;TZID=America/New_York:20260611T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-55@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260611T083000
+DTEND;TZID=America/New_York:20260611T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-56@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260611T200000
+DTEND;TZID=America/New_York:20260611T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,448.67
+DESCRIPTION:Projected end-of-day balance: $1\,448.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-57@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260612T090000
+DTEND;TZID=America/New_York:20260612T093000
+SUMMARY:Buffalo Auto Acceptance Payment — -$260.00
+DESCRIPTION:Amount: -$260.00\nCategory: Auto Loan\nPayment Amount: $260.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBi-weekly Friday payment. Includes $255 payment + $5 convenience fee. Top-priority payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Buffalo Auto Acceptance Payment — -$260.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-58@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260612T110000
+DTEND;TZID=America/New_York:20260612T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-59@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260612T183000
+DTEND;TZID=America/New_York:20260612T190000
+SUMMARY:Credit Score + Report Scan — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Monitoring\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nCheck Equifax\, TransUnion\, and Experian. Confirm no new late payments and lower utilization reporting.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Credit Score + Report Scan — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-60@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260612T200000
+DTEND;TZID=America/New_York:20260612T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,138.67
+DESCRIPTION:Projected end-of-day balance: $1\,138.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Buffalo Auto Acceptance Payment: -$260.00 (Auto Loan)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\n- Credit Score + Report Scan: +$0.00 (Credit Monitoring)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-61@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260613T200000
+DTEND;TZID=America/New_York:20260613T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,138.67
+DESCRIPTION:Projected end-of-day balance: $1\,138.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-62@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260614T120000
+DTEND;TZID=America/New_York:20260614T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-63@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260614T200000
+DTEND;TZID=America/New_York:20260614T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,113.67
+DESCRIPTION:Projected end-of-day balance: $1\,113.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-64@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260615T180000
+DTEND;TZID=America/New_York:20260615T183000
+SUMMARY:LVNV Collection Strategy Check — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Repair\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nReview validation/dispute status and settlement readiness. Do not make new payment promises unless cash is ready.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:LVNV Collection Strategy Check — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-65@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260615T200000
+DTEND;TZID=America/New_York:20260615T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,113.67
+DESCRIPTION:Projected end-of-day balance: $1\,113.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- LVNV Collection Strategy Check: +$0.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-66@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260616T200000
+DTEND;TZID=America/New_York:20260616T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,113.67
+DESCRIPTION:Projected end-of-day balance: $1\,113.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-67@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260617T190000
+DTEND;TZID=America/New_York:20260617T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $190.00
+DESCRIPTION:Week: 06/11/2026 to 06/17/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $585.00\nProjected leftover before food/gas/flex: $190.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $190.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-68@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260617T200000
+DTEND;TZID=America/New_York:20260617T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,113.67
+DESCRIPTION:Projected end-of-day balance: $1\,113.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-69@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260618T073000
+DTEND;TZID=America/New_York:20260618T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-70@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260618T083000
+DTEND;TZID=America/New_York:20260618T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-71@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260618T200000
+DTEND;TZID=America/New_York:20260618T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,638.67
+DESCRIPTION:Projected end-of-day balance: $1\,638.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-72@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260619T110000
+DTEND;TZID=America/New_York:20260619T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$150.00
+DESCRIPTION:Amount: -$150.00\nCategory: Credit Repair\nPayment Amount: $150.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base + Extra Attack Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$150.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-73@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260619T200000
+DTEND;TZID=America/New_York:20260619T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,488.67
+DESCRIPTION:Projected end-of-day balance: $1\,488.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Imagine Credit Card Utilization Attack: -$150.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-74@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260620T200000
+DTEND;TZID=America/New_York:20260620T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,488.67
+DESCRIPTION:Projected end-of-day balance: $1\,488.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-75@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260621T120000
+DTEND;TZID=America/New_York:20260621T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-76@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260621T200000
+DTEND;TZID=America/New_York:20260621T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,463.67
+DESCRIPTION:Projected end-of-day balance: $1\,463.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-77@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260622T200000
+DTEND;TZID=America/New_York:20260622T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,463.67
+DESCRIPTION:Projected end-of-day balance: $1\,463.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-78@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260623T200000
+DTEND;TZID=America/New_York:20260623T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,463.67
+DESCRIPTION:Projected end-of-day balance: $1\,463.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-79@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260624T190000
+DTEND;TZID=America/New_York:20260624T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+DESCRIPTION:Week: 06/18/2026 to 06/24/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $425.00\nProjected leftover before food/gas/flex: $350.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-80@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260624T200000
+DTEND;TZID=America/New_York:20260624T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,463.67
+DESCRIPTION:Projected end-of-day balance: $1\,463.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-81@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260625T073000
+DTEND;TZID=America/New_York:20260625T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-82@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260625T200000
+DTEND;TZID=America/New_York:20260625T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,238.67
+DESCRIPTION:Projected end-of-day balance: $2\,238.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-83@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260626T090000
+DTEND;TZID=America/New_York:20260626T093000
+SUMMARY:Buffalo Auto Acceptance Payment — -$260.00
+DESCRIPTION:Amount: -$260.00\nCategory: Auto Loan\nPayment Amount: $260.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBi-weekly Friday payment. Includes $255 payment + $5 convenience fee. Top-priority payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Buffalo Auto Acceptance Payment — -$260.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-84@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260626T110000
+DTEND;TZID=America/New_York:20260626T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-85@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260626T200000
+DTEND;TZID=America/New_York:20260626T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,928.67
+DESCRIPTION:Projected end-of-day balance: $1\,928.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Buffalo Auto Acceptance Payment: -$260.00 (Auto Loan)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-86@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260627T200000
+DTEND;TZID=America/New_York:20260627T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,928.67
+DESCRIPTION:Projected end-of-day balance: $1\,928.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-87@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260628T120000
+DTEND;TZID=America/New_York:20260628T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-88@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260628T200000
+DTEND;TZID=America/New_York:20260628T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,903.67
+DESCRIPTION:Projected end-of-day balance: $1\,903.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-89@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260629T180000
+DTEND;TZID=America/New_York:20260629T183000
+SUMMARY:LVNV Collection Strategy Check — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Repair\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nReview validation/dispute status and settlement readiness. Do not make new payment promises unless cash is ready.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:LVNV Collection Strategy Check — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-90@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260629T200000
+DTEND;TZID=America/New_York:20260629T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,903.67
+DESCRIPTION:Projected end-of-day balance: $1\,903.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- LVNV Collection Strategy Check: +$0.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-91@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260630T200000
+DTEND;TZID=America/New_York:20260630T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,903.67
+DESCRIPTION:Projected end-of-day balance: $1\,903.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-92@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260701T190000
+DTEND;TZID=America/New_York:20260701T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $440.00
+DESCRIPTION:Week: 06/25/2026 to 07/01/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $335.00\nProjected leftover before food/gas/flex: $440.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $440.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-93@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260701T200000
+DTEND;TZID=America/New_York:20260701T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $1\,903.67
+DESCRIPTION:Projected end-of-day balance: $1\,903.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-94@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260702T073000
+DTEND;TZID=America/New_York:20260702T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-95@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260702T083000
+DTEND;TZID=America/New_York:20260702T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-96@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260702T200000
+DTEND;TZID=America/New_York:20260702T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,428.67
+DESCRIPTION:Projected end-of-day balance: $2\,428.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-97@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260703T110000
+DTEND;TZID=America/New_York:20260703T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$150.00
+DESCRIPTION:Amount: -$150.00\nCategory: Credit Repair\nPayment Amount: $150.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base + Extra Attack Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$150.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-98@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260703T200000
+DTEND;TZID=America/New_York:20260703T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,278.67
+DESCRIPTION:Projected end-of-day balance: $2\,278.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Imagine Credit Card Utilization Attack: -$150.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-99@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260704T200000
+DTEND;TZID=America/New_York:20260704T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,278.67
+DESCRIPTION:Projected end-of-day balance: $2\,278.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-100@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260705T120000
+DTEND;TZID=America/New_York:20260705T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-101@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260705T200000
+DTEND;TZID=America/New_York:20260705T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,253.67
+DESCRIPTION:Projected end-of-day balance: $2\,253.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-102@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260706T200000
+DTEND;TZID=America/New_York:20260706T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,253.67
+DESCRIPTION:Projected end-of-day balance: $2\,253.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-103@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260707T200000
+DTEND;TZID=America/New_York:20260707T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,253.67
+DESCRIPTION:Projected end-of-day balance: $2\,253.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-104@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260708T190000
+DTEND;TZID=America/New_York:20260708T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+DESCRIPTION:Week: 07/02/2026 to 07/08/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $425.00\nProjected leftover before food/gas/flex: $350.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-105@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260708T200000
+DTEND;TZID=America/New_York:20260708T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,253.67
+DESCRIPTION:Projected end-of-day balance: $2\,253.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-106@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260709T073000
+DTEND;TZID=America/New_York:20260709T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-107@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260709T083000
+DTEND;TZID=America/New_York:20260709T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-108@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260709T200000
+DTEND;TZID=America/New_York:20260709T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,778.67
+DESCRIPTION:Projected end-of-day balance: $2\,778.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-109@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260710T090000
+DTEND;TZID=America/New_York:20260710T093000
+SUMMARY:Buffalo Auto Acceptance Payment — -$260.00
+DESCRIPTION:Amount: -$260.00\nCategory: Auto Loan\nPayment Amount: $260.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBi-weekly Friday payment. Includes $255 payment + $5 convenience fee. Top-priority payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Buffalo Auto Acceptance Payment — -$260.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-110@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260710T110000
+DTEND;TZID=America/New_York:20260710T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-111@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260710T183000
+DTEND;TZID=America/New_York:20260710T190000
+SUMMARY:Credit Score + Report Scan — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Monitoring\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nCheck Equifax\, TransUnion\, and Experian. Confirm no new late payments and lower utilization reporting.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Credit Score + Report Scan — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-112@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260710T200000
+DTEND;TZID=America/New_York:20260710T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,468.67
+DESCRIPTION:Projected end-of-day balance: $2\,468.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Buffalo Auto Acceptance Payment: -$260.00 (Auto Loan)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\n- Credit Score + Report Scan: +$0.00 (Credit Monitoring)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-113@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260711T200000
+DTEND;TZID=America/New_York:20260711T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,468.67
+DESCRIPTION:Projected end-of-day balance: $2\,468.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-114@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260712T120000
+DTEND;TZID=America/New_York:20260712T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-115@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260712T200000
+DTEND;TZID=America/New_York:20260712T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,443.67
+DESCRIPTION:Projected end-of-day balance: $2\,443.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-116@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260713T180000
+DTEND;TZID=America/New_York:20260713T183000
+SUMMARY:LVNV Collection Strategy Check — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Repair\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nReview validation/dispute status and settlement readiness. Do not make new payment promises unless cash is ready.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:LVNV Collection Strategy Check — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-117@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260713T200000
+DTEND;TZID=America/New_York:20260713T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,443.67
+DESCRIPTION:Projected end-of-day balance: $2\,443.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- LVNV Collection Strategy Check: +$0.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-118@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260714T200000
+DTEND;TZID=America/New_York:20260714T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,443.67
+DESCRIPTION:Projected end-of-day balance: $2\,443.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-119@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260715T190000
+DTEND;TZID=America/New_York:20260715T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $190.00
+DESCRIPTION:Week: 07/09/2026 to 07/15/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $585.00\nProjected leftover before food/gas/flex: $190.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $190.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-120@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260715T200000
+DTEND;TZID=America/New_York:20260715T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,443.67
+DESCRIPTION:Projected end-of-day balance: $2\,443.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-121@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260716T073000
+DTEND;TZID=America/New_York:20260716T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-122@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260716T083000
+DTEND;TZID=America/New_York:20260716T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-123@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260716T200000
+DTEND;TZID=America/New_York:20260716T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,968.67
+DESCRIPTION:Projected end-of-day balance: $2\,968.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-124@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260717T110000
+DTEND;TZID=America/New_York:20260717T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$150.00
+DESCRIPTION:Amount: -$150.00\nCategory: Credit Repair\nPayment Amount: $150.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base + Extra Attack Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$150.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-125@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260717T200000
+DTEND;TZID=America/New_York:20260717T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,818.67
+DESCRIPTION:Projected end-of-day balance: $2\,818.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Imagine Credit Card Utilization Attack: -$150.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-126@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260718T200000
+DTEND;TZID=America/New_York:20260718T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,818.67
+DESCRIPTION:Projected end-of-day balance: $2\,818.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-127@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260719T120000
+DTEND;TZID=America/New_York:20260719T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-128@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260719T200000
+DTEND;TZID=America/New_York:20260719T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,793.67
+DESCRIPTION:Projected end-of-day balance: $2\,793.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-129@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260720T200000
+DTEND;TZID=America/New_York:20260720T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,793.67
+DESCRIPTION:Projected end-of-day balance: $2\,793.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-130@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260721T200000
+DTEND;TZID=America/New_York:20260721T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,793.67
+DESCRIPTION:Projected end-of-day balance: $2\,793.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-131@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260722T190000
+DTEND;TZID=America/New_York:20260722T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+DESCRIPTION:Week: 07/16/2026 to 07/22/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $425.00\nProjected leftover before food/gas/flex: $350.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $350.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-132@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260722T200000
+DTEND;TZID=America/New_York:20260722T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $2\,793.67
+DESCRIPTION:Projected end-of-day balance: $2\,793.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-133@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260723T073000
+DTEND;TZID=America/New_York:20260723T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-134@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260723T200000
+DTEND;TZID=America/New_York:20260723T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,568.67
+DESCRIPTION:Projected end-of-day balance: $3\,568.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-135@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260724T090000
+DTEND;TZID=America/New_York:20260724T093000
+SUMMARY:Buffalo Auto Acceptance Payment — -$260.00
+DESCRIPTION:Amount: -$260.00\nCategory: Auto Loan\nPayment Amount: $260.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBi-weekly Friday payment. Includes $255 payment + $5 convenience fee. Top-priority payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Buffalo Auto Acceptance Payment — -$260.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-136@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260724T110000
+DTEND;TZID=America/New_York:20260724T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-137@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260724T200000
+DTEND;TZID=America/New_York:20260724T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,258.67
+DESCRIPTION:Projected end-of-day balance: $3\,258.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Buffalo Auto Acceptance Payment: -$260.00 (Auto Loan)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-138@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260725T200000
+DTEND;TZID=America/New_York:20260725T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,258.67
+DESCRIPTION:Projected end-of-day balance: $3\,258.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-139@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260726T120000
+DTEND;TZID=America/New_York:20260726T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-140@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260726T200000
+DTEND;TZID=America/New_York:20260726T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,233.67
+DESCRIPTION:Projected end-of-day balance: $3\,233.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-141@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260727T180000
+DTEND;TZID=America/New_York:20260727T183000
+SUMMARY:LVNV Collection Strategy Check — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Repair\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nReview validation/dispute status and settlement readiness. Do not make new payment promises unless cash is ready.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:LVNV Collection Strategy Check — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-142@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260727T200000
+DTEND;TZID=America/New_York:20260727T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,233.67
+DESCRIPTION:Projected end-of-day balance: $3\,233.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- LVNV Collection Strategy Check: +$0.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-143@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260728T200000
+DTEND;TZID=America/New_York:20260728T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,233.67
+DESCRIPTION:Projected end-of-day balance: $3\,233.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-144@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260729T190000
+DTEND;TZID=America/New_York:20260729T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $440.00
+DESCRIPTION:Week: 07/23/2026 to 07/29/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $335.00\nProjected leftover before food/gas/flex: $440.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $440.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-145@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260729T200000
+DTEND;TZID=America/New_York:20260729T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,233.67
+DESCRIPTION:Projected end-of-day balance: $3\,233.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-146@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260730T073000
+DTEND;TZID=America/New_York:20260730T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-147@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260730T200000
+DTEND;TZID=America/New_York:20260730T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $4\,008.67
+DESCRIPTION:Projected end-of-day balance: $4\,008.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-148@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260731T110000
+DTEND;TZID=America/New_York:20260731T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$150.00
+DESCRIPTION:Amount: -$150.00\nCategory: Credit Repair\nPayment Amount: $150.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base + Extra Attack Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$150.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-149@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260731T200000
+DTEND;TZID=America/New_York:20260731T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,858.67
+DESCRIPTION:Projected end-of-day balance: $3\,858.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Imagine Credit Card Utilization Attack: -$150.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-150@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260801T200000
+DTEND;TZID=America/New_York:20260801T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,858.67
+DESCRIPTION:Projected end-of-day balance: $3\,858.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-151@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260802T120000
+DTEND;TZID=America/New_York:20260802T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-152@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260802T200000
+DTEND;TZID=America/New_York:20260802T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,833.67
+DESCRIPTION:Projected end-of-day balance: $3\,833.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-153@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260803T200000
+DTEND;TZID=America/New_York:20260803T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,833.67
+DESCRIPTION:Projected end-of-day balance: $3\,833.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-154@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260804T200000
+DTEND;TZID=America/New_York:20260804T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,833.67
+DESCRIPTION:Projected end-of-day balance: $3\,833.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-155@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260805T190000
+DTEND;TZID=America/New_York:20260805T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $600.00
+DESCRIPTION:Week: 07/30/2026 to 08/05/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $175.00\nProjected leftover before food/gas/flex: $600.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $600.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-156@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260805T200000
+DTEND;TZID=America/New_York:20260805T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $3\,833.67
+DESCRIPTION:Projected end-of-day balance: $3\,833.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-157@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260806T073000
+DTEND;TZID=America/New_York:20260806T080000
+SUMMARY:Paycheck Posted / Allocate Money — +$775.00
+DESCRIPTION:Amount: +$775.00\nCategory: Income\nPayment Amount: $0.00\nIncome Amount: $775.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBase budget amount: $775 weekly. If actual pay is higher\, extra goes first to emergency savings\, then Imagine card payoff.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Paycheck Posted / Allocate Money — +$775.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-158@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260806T083000
+DTEND;TZID=America/New_York:20260806T090000
+SUMMARY:Rent Split Payment — -$250.00
+DESCRIPTION:Amount: -$250.00\nCategory: Housing\nPayment Amount: $250.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRent plan: $750/month split into three $250 Thursday payments before month-end.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Rent Split Payment — -$250.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-159@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260806T200000
+DTEND;TZID=America/New_York:20260806T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $4\,358.67
+DESCRIPTION:Projected end-of-day balance: $4\,358.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Paycheck Posted / Allocate Money: +$775.00 (Income)\n- Rent Split Payment: -$250.00 (Housing)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-160@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260807T090000
+DTEND;TZID=America/New_York:20260807T093000
+SUMMARY:Buffalo Auto Acceptance Payment — -$260.00
+DESCRIPTION:Amount: -$260.00\nCategory: Auto Loan\nPayment Amount: $260.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nBi-weekly Friday payment. Includes $255 payment + $5 convenience fee. Top-priority payment.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Buffalo Auto Acceptance Payment — -$260.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-161@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260807T110000
+DTEND;TZID=America/New_York:20260807T113000
+SUMMARY:Imagine Credit Card Utilization Attack — -$50.00
+DESCRIPTION:Amount: -$50.00\nCategory: Credit Repair\nPayment Amount: $50.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nRule: $50 every week. Add $100 extra only if no Buffalo Auto and no USAA are due. This is a Base Payment Week.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Imagine Credit Card Utilization Attack — -$50.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-162@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260807T183000
+DTEND;TZID=America/New_York:20260807T190000
+SUMMARY:Credit Score + Report Scan — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Monitoring\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nCheck Equifax\, TransUnion\, and Experian. Confirm no new late payments and lower utilization reporting.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Credit Score + Report Scan — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-163@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260807T200000
+DTEND;TZID=America/New_York:20260807T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $4\,048.67
+DESCRIPTION:Projected end-of-day balance: $4\,048.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Buffalo Auto Acceptance Payment: -$260.00 (Auto Loan)\n- Imagine Credit Card Utilization Attack: -$50.00 (Credit Repair)\n- Credit Score + Report Scan: +$0.00 (Credit Monitoring)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-164@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260808T200000
+DTEND;TZID=America/New_York:20260808T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $4\,048.67
+DESCRIPTION:Projected end-of-day balance: $4\,048.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-165@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260809T120000
+DTEND;TZID=America/New_York:20260809T123000
+SUMMARY:Emergency Savings Transfer — -$25.00
+DESCRIPTION:Amount: -$25.00\nCategory: Savings\nPayment Amount: $25.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nMove $25 to emergency buffer. This creates a safety floor so bills do not turn into overdrafts.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Emergency Savings Transfer — -$25.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-166@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260809T200000
+DTEND;TZID=America/New_York:20260809T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $4\,023.67
+DESCRIPTION:Projected end-of-day balance: $4\,023.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- Emergency Savings Transfer: -$25.00 (Savings)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-167@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260810T180000
+DTEND;TZID=America/New_York:20260810T183000
+SUMMARY:LVNV Collection Strategy Check — $0.00
+DESCRIPTION:Amount: $0.00\nCategory: Credit Repair\nPayment Amount: $0.00\nIncome Amount: $0.00\nBalance note: Daily projected balance appears in the daily balance check event.\nReview validation/dispute status and settlement readiness. Do not make new payment promises unless cash is ready.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:LVNV Collection Strategy Check — $0.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-168@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260810T200000
+DTEND;TZID=America/New_York:20260810T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $4\,023.67
+DESCRIPTION:Projected end-of-day balance: $4\,023.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- LVNV Collection Strategy Check: +$0.00 (Credit Repair)\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-169@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260811T190000
+DTEND;TZID=America/New_York:20260811T193000
+SUMMARY:Weekly Cash-Flow Check — GREEN — Leftover $190.00
+DESCRIPTION:Week: 08/06/2026 to 08/11/2026\nBase income scheduled: $775.00\nPlanned bills/payments/savings: $585.00\nProjected leftover before food/gas/flex: $190.00\nRecommended overtime/extra income to keep $150 cushion: $0.00\nStatus: GREEN\nRule: RED means base income does not cover planned events. YELLOW means bills are covered but cushion is thin.
+BEGIN:VALARM
+TRIGGER:-PT2H
+ACTION:DISPLAY
+DESCRIPTION:Weekly Cash-Flow Check — GREEN — Leftover $190.00
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mortgage-ready-v5-170@openai.local
+DTSTAMP:20260512T151048Z
+DTSTART;TZID=America/New_York:20260811T200000
+DTEND;TZID=America/New_York:20260811T201500
+SUMMARY:Daily Fiscal Balance Check — Projected Balance $4\,023.67
+DESCRIPTION:Projected end-of-day balance: $4\,023.67\nStarting balance used: $0.00\nBase weekly income used: $775.00 every Thursday.\nToday's scheduled items:\n- No scheduled payments today.\nAction: compare this to your real bank balance and adjust spending immediately if the real number is lower.
+END:VEVENT
+END:VCALENDAR
